@@ -11,7 +11,7 @@ class EsItem extends HTMLElement {
 
   
       // Načteme katalog (může být i remote URL nebo local JSON)
-      const response = await fetch('./data/products.js'); // soubor s katalogem
+      const response = await fetch('../data/products.js'); // soubor s katalogem
 
       const catalog = await response.json();
 
