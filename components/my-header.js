@@ -1,5 +1,7 @@
-class MyHeader extends HTMLElement {
-    connectedCallback() {
+class MyHeader extends HTMLElement 
+{
+    connectedCallback()
+     {
       this.innerHTML = `
         <header>
           <h1>Můj E-Shop</h1>
