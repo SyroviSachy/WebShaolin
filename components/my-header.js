@@ -7,7 +7,7 @@ class MyHeader extends HTMLElement {
             <a href="index.html">Domů</a>
             <a href="produkty.html">Produkty</a>
             <a href="kosik.html">Košík</a>
-            <a href="kosik2.html">Košík</a>
+            <a href="kosik2.html">Košík 2</a>
           </nav>
         </header>
       `;
