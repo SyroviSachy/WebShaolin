@@ -1,6 +1,6 @@
 // importuje funkce pre services
-import { loadEmailJS, sendOrderEmail } from './js/email-service.js';
-import { addToCart, getCart, clearCart } from './js/cart-service.js';
+import { loadEmailJS, sendOrderEmail } from '../js/email-service.js';
+import { addToCart, getCart, clearCart } from '../js/cart-service.js';
 
 
 async function init()
