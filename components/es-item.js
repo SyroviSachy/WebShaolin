@@ -9,7 +9,7 @@ class EsItem extends HTMLElement
     async connectedCallback()
     {
       // --- Načtení CSS ---
-      const cssResponse = await fetch('../components/es-item.css');
+      const cssResponse = await fetch('./es-item.css');
       const cssText = await cssResponse.text();
       const style = document.createElement('style');
       style.textContent = cssText;
@@ -19,7 +19,7 @@ class EsItem extends HTMLElement
       this.shadowRoot.innerHTML = itemId;
   
       // Načteme katalog z local products.js JSON file
-      const response = await fetch('../data/products.js'); // soubor s katalogem
+      const response = await fetch('data/products.js'); // soubor s katalogem
       const catalog = await response.json();
 
       // filtr podle ID
