@@ -9,7 +9,7 @@ class EsItem extends HTMLElement
     async connectedCallback()
     {
       // --- Načtení CSS ---
-      const cssResponse = await fetch('./es-item.css');
+      const cssResponse = await fetch('components/es-item.css');
       const cssText = await cssResponse.text();
       const style = document.createElement('style');
       style.textContent = cssText;
