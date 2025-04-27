@@ -14,7 +14,7 @@ class EsItem extends HTMLElement
       const style = document.createElement('style');
       style.textContent = cssText;
     
-      // item-id je attribut co vstupuje do componenty 'es-item'
+      //  item-id je attribut co vstupuje do componenty 'es-item'
       const itemId = this.getAttribute('item-id');
       this.shadowRoot.innerHTML = itemId;
   
