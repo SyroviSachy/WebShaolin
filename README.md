@@ -1,10 +1,5 @@
 # WebShaolin
 ## Live Preview
-Musíš si do VS nainstalovat LivePreview
-- otevři VS Code.
-- Klikni vlevo na ikonu Extensions (vypadá jako čtvereček).
-- Live Preview
-
 ## Odkaz na web
 [Web Shaolin](https://syrovisachy.github.io/WebShaolin/)
 ## Struktura složek a co kam patří
@@ -99,7 +94,7 @@ Musíš si do VS nainstalovat LivePreview
 ---
 
 ### 📜 **7. Budoucí pravidla a konvence (legend) - lowercase-kebab-case 4ever**
-- [ ] Dodržovat `lowercase-kebab-case` pro názvy souborů a složek
+- [ ] Dodržovat `lowercase-kebab-case` pro názvy souborů a složek 
 - [ ] Vyhýbat se diakritice, mezerám a velkým písmenům ve jménech
 - [ ] Vše strukturovat **modulárně** – komponenty, styly, data zvlášť
 - [ ] Používat **relativní cesty** ke všem souborům
