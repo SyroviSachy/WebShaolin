@@ -1,4 +1,10 @@
 # WebShaolin
+## Live Preview
+Musíš si do VS nainstalovat LivePreview
+- otevři VS Code.
+- Klikni vlevo na ikonu Extensions (vypadá jako čtvereček).
+- Live Preview
+
 ## Odkaz na web
 [Web Shaolin](https://syrovisachy.github.io/WebShaolin/)
 ## Struktura složek a co kam patří
