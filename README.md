@@ -44,7 +44,7 @@
 
 ## ✅ **ToDo List**
 
-### 📁 **1. Úprava struktury složek**
+  ### 📁 **1. Úprava struktury složek**
 - [ X ] Přesunout všechny CSS soubory do složky `/css`
 - [ X ] Přesunout všechny obrázky do složky `/assets/images`
 - [ X ] Přesunout JavaScript soubory do `/js`
@@ -88,6 +88,7 @@
 - [ ] Vytvořit GitHub repozitář a pushnout projekt
 - [ ] Aktivovat GitHub Pages (branch: `main`, složka `/`)
 - [ ] Otestovat, že web běží z veřejné URL
+- [ ] Zaregistrovat na doméně webshaolin.plansky.cz
 
 ---
 
@@ -98,6 +99,13 @@
 - [ ] Používat **relativní cesty** ke všem souborům
 
 ---
+
+### **8. Java Script rules*
+- [ ] main.js = stará se o zobrazení, načítání dat, komunikaci mezi komponentami.
+- [ ] email-service.js = čistě jen odesílání objednávky emailem.
+- [ ] [name]-service.js = Další služby pokud bude potřeba.
+
+
 
 ## future coding legend
 Modularita – Každá věc má svoje místo.
@@ -190,6 +198,30 @@ customElements.define('my-header', MyHeader);
     └── produkty.json
 
 ```
+
+- Přidat logovací funkce
+- Implementovat možnost zasílání emailů
+
+```
+
+import emailjs from 'emailjs-com';
+
+function sendEmail()
+{
+    emailjs.send('service_7mnhzwv', 'template_jl1hams',
+    {
+        from_name: 'Filip',
+        message: 'WebShaolin order',
+        reply_to: 'filip@plansky.cz'
+    }, 'II2hd2XmScvGypddQ')
+    .then((result) => {
+        console.log('Email odeslán:', result.text);
+    }, (error) => {
+        console.log('Chyba při odesílání:', error.text);
+    });
+}
+```
+  
 
 
 

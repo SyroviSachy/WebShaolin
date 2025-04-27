@@ -3,11 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>Detail produktu</title>
-  <script src="./components/es-item.js" defer></script>
+
+  <!-- zaregistruj komponenty -->
+  <script type="module" src="./components/es-item.js" defer></script>
+  <script type="module" src="./components/my-header.js" defer></script>
+  <script type="module" src="./components/es-cart.js" defer></script>
+  <script type="module" src="./js/cart-service.js" defer></script>
 </head>
 <body>
-    Test begin
-    <es-item item-id="1"></es-item> <!-- zobrazí hrnek -->
-    Test end
+    Pouzij komponenty
+    <my-header></my-header>
+    <es-item item-id="1"></es-item> <!-- zobrazí item-id(n) -->
+    <es-cart ></es-cart> <!-- zobrazí kosik -->
 </body>
 </html>
