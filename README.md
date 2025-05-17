@@ -86,10 +86,10 @@
 ---
 
 ### 🌐 **6. GitHub Pages**
-- [ ] Vytvořit GitHub repozitář a pushnout projekt
-- [ ] Aktivovat GitHub Pages (branch: `main`, složka `/`)
-- [ ] Otestovat, že web běží z veřejné URL
-- [ ] Zaregistrovat na doméně webshaolin.plansky.cz
+- [ X ]  Vytvořit GitHub repozitář a pushnout projekt
+- [ X ]  Aktivovat GitHub Pages (branch: `main`, složka `/`)
+- [ X ]  Otestovat, že web běží z veřejné URL
+- [ X ]  Zaregistrovat na doméně webshaolin.plansky.cz
 
 ---
 
